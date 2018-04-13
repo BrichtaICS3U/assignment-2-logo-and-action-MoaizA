@@ -58,8 +58,6 @@ while carryOn:
     pygame.draw.polygon(screen, BLACK,[[265,180],[100,300],[200,180]],4)#The lower border of the lightning bolt
     pygame.draw.line(screen, yellow,[200,178],[185,198],6)
     
-        
-
     # Update the screen with queued shapes
     pygame.display.flip()
 
